@@ -12,5 +12,4 @@ public class Circle {
 	public double getArea() {
 		return PI*(radius*radius);
 	}
-
 }

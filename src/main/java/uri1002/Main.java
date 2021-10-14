@@ -7,10 +7,10 @@ public class Main {
 	public static void main(String[] args) {
 		Scanner entrada = new Scanner (System.in);
 		Circle c = new Circle();
-		c.setRadius(2.0);
-		double area  = c.getArea();
-		//TODO: format number!
-		System.out.println(c.getArea());
+		c.setRadius(entrada.nextDouble());
 		
+		entrada.close();		
+		
+		System.out.printf("A=%.4f",c.getArea());		
 	}
 }
